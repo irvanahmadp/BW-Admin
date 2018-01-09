@@ -1,0 +1,24 @@
+{
+  "name": "vanadmintemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IrvanAhmadPrasetya/Van-Admin-Themplate/"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Admin",
+    "Template",
+    "Material",
+    "Design"
+  ],
+  "author": "Irvan Ahmad Prasetya",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
