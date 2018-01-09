@@ -1,0 +1,110 @@
+/*
+Theme Name: BW Admin Template
+Theme URI: https://github.com/IrvanAhmadPrasetya/Templates
+Author: Irvan Ahmad Prasetya
+Author URI: https://github.com/IrvanAhmadPrasetya
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Admin Template, Material Design, Bootstrap, html, etc
+
+This theme, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+	background: #edf1f5
+}
+.white-box{
+	background: #fff;
+	padding: 25px;
+	border-radius: 3px;
+}
+.navbar-expand-lg{
+	padding-left: 0px;
+}
+.navbar-brand{
+	padding: 7px;
+	text-align: center;
+}
+.sidebar{
+	padding-left: 0;
+	padding-right: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top:48px;
+	z-index: 1000;
+}
+.nav-pills .nav-link{
+	border-radius: 0px;
+}
+.nav-pills .nav-link.active{
+	background-color: #33b35a;
+}
+.sidebar-link:hover{
+	background-color: #33b35a;
+}
+.sidebar-link span{
+	margin-left: 5px;
+	border-radius: 0px;
+}
+.content{
+	margin-top: 48px;
+}
+.round{
+	border-radius: 15px
+}
+.row{
+	margin-top: 25px;
+}
+.footer{
+	text-align: center;
+}
+/*@media (max-width: 575px) {
+	.content{
+		margin-top: 34px;
+	}
+	.sidebar{
+		position: relative;
+		margin-bottom:48px;
+	}
+}*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.99px) {
+	.content{
+		margin-top: 34px;
+	}
+	.sidebar{
+		position: relative;
+		margin-bottom:48px;
+	}
+	.sidebar-link{
+		text-align: center;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.hidden-md-down{
+		display: none;
+	}
+	.sidebar-link{
+		text-align: center;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
