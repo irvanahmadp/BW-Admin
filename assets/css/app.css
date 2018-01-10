@@ -26,6 +26,16 @@ body{
 .navbar-brand{
 	padding: 7px;
 	text-align: center;
+	text-shadow: 1px 0px #28a745, 0px 1px #28a745, -1px 0px #28a745, 0px -1px #28a745;
+    font-weight: 900;
+    color:white;
+}
+.navbar-light .navbar-brand{
+	color:white;
+}
+.navbar-light .navbar-brand:hover{
+	color:#28a745;
+	text-shadow: unset
 }
 .sidebar{
 	padding-left: 0;
