@@ -6,7 +6,7 @@ $(document).ready(function(){
 				labels: ["January", "February", "March", "April", "May", "June"],
 				datasets: [{
 					label: '# of users',
-					data: [19, 25, 203, 235, 497, 521],
+					data: [19, 25, 99, 335, 497, 521],
 					borderWidth: 1,
 					backgroundColor: "#28a745"
 				}]
