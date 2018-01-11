@@ -1,13 +1,21 @@
 # BW-Admin
 
 Template untuk halaman admin.
+Menggunakan:
+Bootstrap 4
+Material Desain Lite
+Jquery
+Datatables
+Chartjs
 
-Cloning this repo use SSH
+#Memulai
+
+Untuk mengkloning menggunakan SSH
 ```
 git clone git@github.com:IrvanAhmadPrasetya/BW-Admin.git
 ```
 
-Cloning this repo use HTTPS:
+Untuk mengkloning menggunakan HTTPS:
 ```
 git clone https://github.com/IrvanAhmadPrasetya/BW-Admin.git
 ```
