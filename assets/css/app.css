@@ -44,7 +44,7 @@ body{
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	top:48px;
+	top:61px;
 	z-index: 1000;
 }
 .nav-pills .nav-link{
@@ -61,7 +61,7 @@ body{
 	border-radius: 0px;
 }
 .content{
-	margin-top: 48px;
+	margin-top: 61px;
 }
 .round{
 	border-radius: 15px
@@ -78,7 +78,7 @@ body{
 	}
 	.sidebar{
 		position: relative;
-		margin-bottom:48px;
+		margin-bottom:61px;
 	}
 }*/
 /* Extra small devices (portrait phones, less than 576px) */
@@ -88,7 +88,7 @@ body{
 	}
 	.sidebar{
 		position: relative;
-		margin-bottom:48px;
+		margin-bottom:61px;
 	}
 	.sidebar-link{
 		text-align: center;

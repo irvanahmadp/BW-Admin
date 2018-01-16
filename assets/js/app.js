@@ -1,16 +1,30 @@
 $(document).ready(function(){
 	var chart1= $("#chart1");
+	var dataChart={
+		labels: ["January", "February", "March", "April", "May", "June"],
+		datasets: [{
+			label: '# of session',
+			data: [19, 25, 99, 115, 175, 217],
+			borderWidth: 1,
+			/*backgroundColor: "#007bff"*/
+			backgroundColor: "rgba(0, 123, 255, 0.75)"
+		},{
+			label: '# of users',
+			data: [19, 25, 99, 335, 497, 521],
+			borderWidth: 1,
+			/*backgroundColor: "#28a745"*/
+			backgroundColor: "rgba(40, 167, 69, 0.75)"
+		},{
+			label: '# of views',
+			data: [19, 25, 99, 512, 791, 719],
+			borderWidth: 1,
+			/*backgroundColor: "#17a2b8"*/
+			backgroundColor: "rgba(23, 162, 184, 0.75)"
+		}]
+	};
 	var myChart = new Chart(chart1, {
 		type: 'bar',
-			data: {
-				labels: ["January", "February", "March", "April", "May", "June"],
-				datasets: [{
-					label: '# of users',
-					data: [19, 25, 99, 335, 497, 521],
-					borderWidth: 1,
-					backgroundColor: "#28a745"
-				}]
-			},
+			data: dataChart,
 			options: {
 				scales: {
 					yAxes: [{
@@ -25,19 +39,11 @@ $(document).ready(function(){
 	var chart2= $("#chart2");
 	var myChart = new Chart(chart2, {
 		type: 'line',
-			data: {
-				labels: ["January", "February", "March", "April", "May", "June"],
-				datasets: [{
-					label: '# of bounce',
-					data: [5, 1, 9, 8, 9, 7],
-					borderWidth: 1,
-					backgroundColor: "#dc3545"
-				}]
-			},
+			data: dataChart,
 			options: {
 				scales: {
 					yAxes: [{
-						stacked: true
+						beginAtZero:true,
 					}]
 				},
 				elements: {
