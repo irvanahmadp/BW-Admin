@@ -46,6 +46,8 @@ body{
 	bottom: 0;
 	top:61px;
 	z-index: 1000;
+	font-size: 14px;
+	font-weight: 400;
 }
 .nav-pills .nav-link{
 	border-radius: 0px;
@@ -91,23 +93,26 @@ body{
 		margin-bottom:61px;
 	}
 	.sidebar-link{
-		text-align: center;
+		text-align: left;
+	}
+	.sidebar-icon{
+		display: none;
 	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.99px) {
-	.hidden-md-down{
-		display: none;
-	}
 	.sidebar-link{
 		text-align: center;
+	}
+	.sidebar-text{
+		display: none;
 	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.99px) {
-
+	
 }
 
 /* Large devices (desktops, 992px and up) */
