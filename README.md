@@ -2,6 +2,9 @@
 
 Template untuk halaman admin.
 
+# Screenshot
+![Screenshot BW-Admin](https://github.com/IrvanAhmadPrasetya/BW-Admin/blob/master/BW%20Admin.png)
+
 Menggunakan:
 - Bootstrap 4
 - Material Desain Lite
