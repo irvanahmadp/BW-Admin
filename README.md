@@ -2,15 +2,15 @@
 
 Template untuk halaman admin.
 
-# Screenshot
-![Screenshot BW-Admin](https://github.com/IrvanAhmadPrasetya/BW-Admin/blob/master/BW%20Admin.png)
-
-Menggunakan:
+Template ini dibuat menggunakan:
 - Bootstrap 4
 - Material Desain Lite
 - Jquery
 - Datatables
 - Chartjs
+
+# Screenshot
+![Screenshot BW-Admin](https://github.com/IrvanAhmadPrasetya/BW-Admin/blob/master/BW%20Admin.png)
 
 # Memulai
 
